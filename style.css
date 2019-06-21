@@ -1,0 +1,252 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.cadre_logo img{
+  position: relative;
+  margin-left: 60px;
+  height: 120px;
+}
+
+.title{
+	color: rgb(170, 50, 35);
+	font-size:30px;
+	margin-left:70px;
+	padding-bottom:0px;
+  margin-bottom:0px;	  
+  position: relative;
+}
+
+
+/* Style pour le menu */
+
+.menu  {
+  background-color: rgb(170, 50, 35);
+	padding-top: 10px;
+	padding-bottom:10px;
+	width: 1200px;
+	}
+
+a {
+	font-size:20px;
+	text-decoration:none;
+	color:rgb(200, 200, 200);
+	}
+	
+a:hover {
+	color:rgb(255,255,255);
+}
+	
+li{
+	margin-left:25px;
+	padding-left:0px;
+	list-style:none;	
+}
+
+ul{
+	background-color:rgb(170, 50, 35);
+	margin:0 0 0 0;
+	border-bottom:dashed rgb(200, 200, 200) 2px;
+	width: 1160px;
+}
+
+
+/* Style pour le bandeau */
+
+#bandeau img{
+	width:1200px;
+	height:300px;
+	padding-top:0px;
+  margin-top:0px;
+  margin-left:0px; 
+  margin-right:10px;
+}
+
+
+/* Styles et positions des textes*/
+	
+h2{
+	font-size:30px;
+	color:rgb(0,0,0);
+	margin-left:70px;
+}
+
+h3{
+	color:rgb(0,0,0);
+	font-size:20px;
+	margin-bottom:0px;
+	margin-left:70px;
+}
+	
+p{
+	margin-left:70px;
+	color:rgb(0,0,0);
+	font-size:17px;
+	}
+	
+.homer, .soir {
+	margin-left:70px;	
+}
+
+.homer{
+	color:rgb(0,0,0);
+	font-size:17px;
+}	
+
+.space{
+  height: 80px;
+}
+
+/* Style En savoir plus*/	
+
+.savoir_plus a{
+	color:rgb(170, 50, 35);
+	font-size:14px;
+	margin-left:70px;
+	text-decoration:none;	
+}
+
+.savoir_plus a:hover{
+	color:rgb(170, 170, 170);
+}	
+
+/*IMG PLAN ACCES*/	
+
+.adresse{
+	margin-left:70px;
+	color:rgb(0,0,0);
+	font-size:17px;
+}
+
+.planacces img{   
+  margin-top: 10px;
+  margin-left: 70px;
+  height: 350px;
+  width: 680px;
+}
+
+.plan{
+	margin-bottom:0px;
+}
+/*tableau horaires*/
+
+table{
+	border-collapse:collapse;
+	border:1px solid rgb(170,50,35);
+	margin-left:70px;
+}
+
+th, td{
+	border:1px solid rgb(170,50,35);
+  padding: 10px 35px 10px 35px;
+	color:black;
+}
+
+th{
+	font-size:15px;
+}
+
+td{
+	font-size:13px;
+}
+
+
+/*position photos page presentation*/	
+	
+.librairie img{
+  margin-left: 60px;
+  height: 155px;
+  
+}
+.noelfremond{
+	margin-left:60px;
+}
+
+/* position photos page events*/
+
+.simpson,.mosaique,.sirene,.grec {
+	display:inline;	
+}
+	
+.mosaique,.sirene,.grec{
+	margin-left:35px;
+}
+
+.simpson img{
+	height:180px;
+	width:145px;
+	margin-left:70px;
+	border: 1px solid rgb(237,237,237);	
+}
+
+.mosaique img{
+	height:180px;
+	width:240px;	
+}
+
+.sirene img{
+	height:180px;
+	width:380px;
+}
+
+.grec img{
+	height:180px;
+	width:160px;
+	border: 1px solid rgb(237,237,237);	
+}
+
+.surprise,.postmodern,.portrait ,.surprise2{
+	display:inline;
+}	
+
+.postmodern,.portrait ,.surprise2{
+	margin-left:35px;
+}
+
+.surprise img{
+	height:180px;
+	width:120px;
+	border: 1px solid rgb(237,237,237);
+	margin-left:70px;
+}
+.postmodern img{
+	height:180px;
+	width:540px;
+}
+.portrait img{
+	height:180px;
+	width:110px;
+}
+.surprise2 img{
+	height:180px;
+	width:120px;
+	border: 1px solid rgb(237,237,237);
+}
+
+/*bordures citations*/
+
+.citation{
+	border: 3px dashed;
+	border-color:rgb(170,50,35);
+	font-style:oblique;
+	color:rgb(0,0,0);
+	font-size: 17px;
+	padding: 30px 20px 30px 20px;
+	margin:20px 0px 20px 120px;
+	background-color:rgb(237,237,237);
+	width: 550px;	
+}
+
+
+/*footer*/
+.footer{
+	color:rgb(115, 25, 25);
+	font-size:15px;
+	padding-top:30px;
+	margin-top:50px;
+  width:1200px;
+	margin-left:0;
+	background:rgb(170, 170, 170);
+	text-align:center;
+	padding-bottom: 60px;
+}
